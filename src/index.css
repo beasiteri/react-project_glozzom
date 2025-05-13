@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@theme {
+  --custom-gray: #343a40;
+  --amber-500: #fb8500;
+  --alabaster-500: #e0e1dd;
+}
+
+.bg-cutsom-gray {
+  background-color: var(--custom-gray);
+}
